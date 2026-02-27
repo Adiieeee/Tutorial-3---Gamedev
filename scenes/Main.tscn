@@ -1,14 +1,173 @@
 [gd_scene format=3 uid="uid://dsyfep1odrxje"]
 
 [ext_resource type="PackedScene" uid="uid://ds60n6krsavle" path="res://scenes/Ground.tscn" id="1_elqb8"]
+[ext_resource type="Texture2D" uid="uid://cwsg78xr2cs5n" path="res://assets/kenney_platformercharacters/PNG/Sky.jpg" id="1_vcsgt"]
+[ext_resource type="PackedScene" uid="uid://bsl0snt670bdm" path="res://scenes/Wall.tscn" id="2_0bbpv"]
+[ext_resource type="PackedScene" uid="uid://dvlyhuf4uyjqv" path="res://scenes/player.tscn" id="2_rvslj"]
+[ext_resource type="Texture2D" uid="uid://cirwssqa1y3jv" path="res://assets/fasilkom.png" id="4_rarhs"]
+[ext_resource type="Script" uid="uid://dyuo42um7jjy6" path="res://scenes/area_2d.gd" id="5_c01mt"]
+[ext_resource type="Script" uid="uid://cjp5r5fl7yrms" path="res://scenes/collision_shape_2d.gd" id="7_nxtc6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vcsgt"]
+size = Vector2(70, 68)
+
+[sub_resource type="LabelSettings" id="LabelSettings_c01mt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jlsqs"]
+size = Vector2(2199, 143)
 
 [node name="Root" type="Node2D" unique_id=918599496]
 
-[node name="Ground" parent="." unique_id=673580990 instance=ExtResource("1_elqb8")]
+[node name="Parallax2D" type="Parallax2D" parent="." unique_id=1703755553]
+scroll_scale = Vector2(0.05, 0.05)
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D" unique_id=1857549549]
+position = Vector2(1808.375, 17.874977)
+scale = Vector2(0.599577, 0.31827778)
+texture = ExtResource("1_vcsgt")
+
+[node name="LabelBase" type="Label" parent="." unique_id=26561387]
+offset_left = 193.0
+offset_top = 110.0
+offset_right = 410.0
+offset_bottom = 193.0
+theme_override_font_sizes/font_size = 29
+text = "Walk Rigt use D
+Walk Left use A"
+
+[node name="Label2" type="Label" parent="." unique_id=2027657122]
+offset_left = 452.0
+offset_top = 195.0
+offset_right = 719.0
+offset_bottom = 278.0
+theme_override_font_sizes/font_size = 29
+text = "Jump use Spacebar"
+
+[node name="Label3" type="Label" parent="." unique_id=1088897925]
+offset_left = 918.0
+offset_top = 37.0
+offset_right = 1213.0
+offset_bottom = 120.0
+theme_override_font_sizes/font_size = 29
+text = "You can double jump"
+
+[node name="Label4" type="Label" parent="." unique_id=527168492]
+offset_left = 974.0
+offset_top = -236.0
+offset_right = 1269.0
+offset_bottom = -153.0
+theme_override_font_sizes/font_size = 29
+text = "Press Shift to Dash
+between obstacle"
+
+[node name="Label5" type="Label" parent="." unique_id=1353158450]
+offset_left = 1592.0
+offset_top = -28.0
+offset_right = 1959.0
+offset_bottom = 98.0
+theme_override_font_sizes/font_size = 29
+text = "Use all of the combination
+(double jump + dash)
+to get to the other side"
+
+[node name="Arena" type="Node" parent="." unique_id=1399274291]
+
+[node name="Ground" parent="Arena" unique_id=673580990 instance=ExtResource("1_elqb8")]
 position = Vector2(296, 324)
 
-[node name="Ground2" parent="." unique_id=1551337937 instance=ExtResource("1_elqb8")]
+[node name="Ground2" parent="Arena" unique_id=1551337937 instance=ExtResource("1_elqb8")]
 position = Vector2(856, 324)
 
-[node name="Ground3" parent="." unique_id=1648397147 instance=ExtResource("1_elqb8")]
+[node name="Ground3" parent="Arena" unique_id=1648397147 instance=ExtResource("1_elqb8")]
 position = Vector2(576, 394)
+
+[node name="Ground4" parent="Arena" unique_id=2144155898 instance=ExtResource("1_elqb8")]
+position = Vector2(1136, 176)
+
+[node name="Ground5" parent="Arena" unique_id=1191473863 instance=ExtResource("1_elqb8")]
+position = Vector2(1133, -295)
+
+[node name="Ground6" parent="Arena" unique_id=1108994253 instance=ExtResource("1_elqb8")]
+position = Vector2(1485, -295)
+
+[node name="Ground7" parent="Arena" unique_id=558908274 instance=ExtResource("1_elqb8")]
+position = Vector2(1631, 180)
+
+[node name="Ground8" parent="Arena" unique_id=1197869873 instance=ExtResource("1_elqb8")]
+position = Vector2(3146, 177)
+
+[node name="Wall" parent="Arena" unique_id=37351513 instance=ExtResource("2_0bbpv")]
+position = Vector2(997, 283)
+
+[node name="Wall2" parent="Arena" unique_id=1579882729 instance=ExtResource("2_0bbpv")]
+position = Vector2(1278, 175)
+
+[node name="Wall3" parent="Arena" unique_id=1445563816 instance=ExtResource("2_0bbpv")]
+position = Vector2(1278, 43)
+
+[node name="Wall4" parent="Arena" unique_id=1079403697 instance=ExtResource("2_0bbpv")]
+position = Vector2(1278, -31)
+
+[node name="Wall6" parent="Arena" unique_id=488025036 instance=ExtResource("2_0bbpv")]
+position = Vector2(1492, 119)
+
+[node name="Wall5" parent="Arena" unique_id=1166502668 instance=ExtResource("2_0bbpv")]
+position = Vector2(1492, -30)
+
+[node name="Wall7" parent="Arena" unique_id=234590375 instance=ExtResource("2_0bbpv")]
+position = Vector2(85, 323)
+
+[node name="Wall8" parent="Arena" unique_id=940445151 instance=ExtResource("2_0bbpv")]
+position = Vector2(85, 177)
+
+[node name="Wall9" parent="Arena" unique_id=1928436601 instance=ExtResource("2_0bbpv")]
+position = Vector2(85, 46)
+
+[node name="Wall10" parent="Arena" unique_id=372262116 instance=ExtResource("2_0bbpv")]
+position = Vector2(3358, 177)
+
+[node name="Wall11" parent="Arena" unique_id=167921786 instance=ExtResource("2_0bbpv")]
+position = Vector2(3357, 44)
+
+[node name="Wall12" parent="Arena" unique_id=1361471552 instance=ExtResource("2_0bbpv")]
+position = Vector2(3357, -64)
+
+[node name="Wall13" parent="Arena" unique_id=1501284193 instance=ExtResource("2_0bbpv")]
+position = Vector2(3357, -198)
+
+[node name="Player" parent="." unique_id=1809350381 instance=ExtResource("2_rvslj")]
+position = Vector2(294, 149)
+
+[node name="Objective" type="Area2D" parent="." unique_id=2028165842]
+position = Vector2(-15, 20)
+script = ExtResource("5_c01mt")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Objective" unique_id=574855088]
+position = Vector2(3301, 89)
+shape = SubResource("RectangleShape2D_vcsgt")
+
+[node name="Sprite2D" type="Sprite2D" parent="Objective" unique_id=1550972437]
+position = Vector2(3300.75, 91.80817)
+scale = Vector2(0.45666447, 0.45666444)
+texture = ExtResource("4_rarhs")
+
+[node name="VictoryUI" type="CanvasLayer" parent="." unique_id=355503714]
+
+[node name="Label" type="Label" parent="VictoryUI" unique_id=1238402901]
+offset_left = 3130.0
+offset_top = 53.0
+offset_right = 3206.0
+offset_bottom = 76.0
+theme_override_font_sizes/font_size = 200
+text = "VICTORY!!"
+label_settings = SubResource("LabelSettings_c01mt")
+
+[node name="Deathzone" type="Area2D" parent="." unique_id=1569225723]
+position = Vector2(2365, 589)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Deathzone" unique_id=770763316]
+shape = SubResource("RectangleShape2D_jlsqs")
+script = ExtResource("7_nxtc6")
+
+[connection signal="body_entered" from="Objective" to="Objective" method="_on_body_entered"]
+[connection signal="body_entered" from="Deathzone" to="Deathzone/CollisionShape2D" method="_on_deathzone_body_entered"]
