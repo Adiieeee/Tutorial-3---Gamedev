@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dkwggwo6281be"
+path="res://.godot/imported/Sketchbook 2025-12-11_NEURO.ogg-dfc6836ea5a69c01260d6990209e6014.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/Tutorial5/music-loop-bundle-download_2025_q4/Sketchbook 2025-12-11_NEURO.ogg"
+dest_files=["res://.godot/imported/Sketchbook 2025-12-11_NEURO.ogg-dfc6836ea5a69c01260d6990209e6014.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

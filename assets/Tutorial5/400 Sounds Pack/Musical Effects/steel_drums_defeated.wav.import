@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dg7mjgku0d6ym"
+path="res://.godot/imported/steel_drums_defeated.wav-06814045c5404a28860dc00abb78b259.sample"
+
+[deps]
+
+source_file="res://assets/Tutorial5/400 Sounds Pack/Musical Effects/steel_drums_defeated.wav"
+dest_files=["res://.godot/imported/steel_drums_defeated.wav-06814045c5404a28860dc00abb78b259.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

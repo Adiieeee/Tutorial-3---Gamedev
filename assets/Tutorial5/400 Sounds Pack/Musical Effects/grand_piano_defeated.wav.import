@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cp5345tvbc212"
+path="res://.godot/imported/grand_piano_defeated.wav-a1e6f5232120d61dd5901f15e5b212a9.sample"
+
+[deps]
+
+source_file="res://assets/Tutorial5/400 Sounds Pack/Musical Effects/grand_piano_defeated.wav"
+dest_files=["res://.godot/imported/grand_piano_defeated.wav-a1e6f5232120d61dd5901f15e5b212a9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

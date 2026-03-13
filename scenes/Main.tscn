@@ -3,9 +3,9 @@
 [ext_resource type="PackedScene" uid="uid://ds60n6krsavle" path="res://scenes/Ground.tscn" id="1_elqb8"]
 [ext_resource type="Texture2D" uid="uid://cwsg78xr2cs5n" path="res://assets/kenney_platformercharacters/PNG/Sky.jpg" id="1_vcsgt"]
 [ext_resource type="PackedScene" uid="uid://bsl0snt670bdm" path="res://scenes/Wall.tscn" id="2_0bbpv"]
-[ext_resource type="PackedScene" uid="uid://dvlyhuf4uyjqv" path="res://scenes/player.tscn" id="2_rvslj"]
 [ext_resource type="Texture2D" uid="uid://cirwssqa1y3jv" path="res://assets/fasilkom.png" id="4_rarhs"]
 [ext_resource type="Script" uid="uid://dyuo42um7jjy6" path="res://scenes/area_2d.gd" id="5_c01mt"]
+[ext_resource type="PackedScene" uid="uid://dvlyhuf4uyjqv" path="res://scenes/player.tscn" id="7_jlsqs"]
 [ext_resource type="Script" uid="uid://cjp5r5fl7yrms" path="res://scenes/collision_shape_2d.gd" id="7_nxtc6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vcsgt"]
@@ -135,9 +135,6 @@ position = Vector2(3357, -64)
 [node name="Wall13" parent="Arena" unique_id=1501284193 instance=ExtResource("2_0bbpv")]
 position = Vector2(3357, -198)
 
-[node name="Player" parent="." unique_id=1809350381 instance=ExtResource("2_rvslj")]
-position = Vector2(294, 149)
-
 [node name="Objective" type="Area2D" parent="." unique_id=2028165842]
 position = Vector2(-15, 20)
 script = ExtResource("5_c01mt")
@@ -168,6 +165,9 @@ position = Vector2(2365, 589)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Deathzone" unique_id=770763316]
 shape = SubResource("RectangleShape2D_jlsqs")
 script = ExtResource("7_nxtc6")
+
+[node name="Player" parent="." unique_id=1809350381 instance=ExtResource("7_jlsqs")]
+position = Vector2(299, 171)
 
 [connection signal="body_entered" from="Objective" to="Objective" method="_on_body_entered"]
 [connection signal="body_entered" from="Deathzone" to="Deathzone/CollisionShape2D" method="_on_deathzone_body_entered"]

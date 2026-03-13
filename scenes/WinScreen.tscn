@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dwob3vpx3iqxv"]
+
+[ext_resource type="Texture2D" uid="uid://y4r0rfay03yr" path="res://Assets/Keanu.png" id="1"]
+
+[node name="WinScreen" type="Sprite2D" unique_id=846874772]
+position = Vector2(573.1645, 326.8255)
+scale = Vector2(1.1188194, 1.1144466)
+texture = ExtResource("1")

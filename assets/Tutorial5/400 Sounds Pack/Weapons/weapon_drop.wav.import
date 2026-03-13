@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://77gmms86h6tw"
+path="res://.godot/imported/weapon_drop.wav-fc747d417ca4c915464534582b597682.sample"
+
+[deps]
+
+source_file="res://assets/Tutorial5/400 Sounds Pack/Weapons/weapon_drop.wav"
+dest_files=["res://.godot/imported/weapon_drop.wav-fc747d417ca4c915464534582b597682.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

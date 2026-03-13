@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dolgeon6j3ydm"
+path="res://.godot/imported/dice_shake_3.wav-9f01bb10a5a82e2e0f3820fe4a6f3ad4.sample"
+
+[deps]
+
+source_file="res://assets/Tutorial5/400 Sounds Pack/Card and Board/dice_shake_3.wav"
+dest_files=["res://.godot/imported/dice_shake_3.wav-9f01bb10a5a82e2e0f3820fe4a6f3ad4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

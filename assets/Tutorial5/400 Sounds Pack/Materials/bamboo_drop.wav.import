@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://10amf6csk3ig"
+path="res://.godot/imported/bamboo_drop.wav-15be4d5d5979f3f2880d977a9f513d25.sample"
+
+[deps]
+
+source_file="res://assets/Tutorial5/400 Sounds Pack/Materials/bamboo_drop.wav"
+dest_files=["res://.godot/imported/bamboo_drop.wav-15be4d5d5979f3f2880d977a9f513d25.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

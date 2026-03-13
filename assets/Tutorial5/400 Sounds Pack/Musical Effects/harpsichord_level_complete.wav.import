@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://csxx3ccb8rqwk"
+path="res://.godot/imported/harpsichord_level_complete.wav-9449af8b872fb4c9bddac2e593b0b4ac.sample"
+
+[deps]
+
+source_file="res://assets/Tutorial5/400 Sounds Pack/Musical Effects/harpsichord_level_complete.wav"
+dest_files=["res://.godot/imported/harpsichord_level_complete.wav-9449af8b872fb4c9bddac2e593b0b4ac.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

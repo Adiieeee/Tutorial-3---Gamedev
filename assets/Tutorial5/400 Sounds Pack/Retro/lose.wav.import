@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dy4jda41h1w70"
+path="res://.godot/imported/lose.wav-6d060e4e89ad2860e96fae093e1034db.sample"
+
+[deps]
+
+source_file="res://assets/Tutorial5/400 Sounds Pack/Retro/lose.wav"
+dest_files=["res://.godot/imported/lose.wav-6d060e4e89ad2860e96fae093e1034db.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

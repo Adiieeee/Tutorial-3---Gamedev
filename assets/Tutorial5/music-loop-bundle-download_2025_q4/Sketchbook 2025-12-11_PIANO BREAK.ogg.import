@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://da08s14ma2i1l"
+path="res://.godot/imported/Sketchbook 2025-12-11_PIANO BREAK.ogg-4c4e5107a12e4aacc20a195f095e3b5e.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/Tutorial5/music-loop-bundle-download_2025_q4/Sketchbook 2025-12-11_PIANO BREAK.ogg"
+dest_files=["res://.godot/imported/Sketchbook 2025-12-11_PIANO BREAK.ogg-4c4e5107a12e4aacc20a195f095e3b5e.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

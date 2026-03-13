@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c5w7b8ay0amfw"
+path="res://.godot/imported/fall_quick.wav-20c99d1f8954dd4c6dab36ae3def72f5.sample"
+
+[deps]
+
+source_file="res://assets/Tutorial5/400 Sounds Pack/Retro/fall_quick.wav"
+dest_files=["res://.godot/imported/fall_quick.wav-20c99d1f8954dd4c6dab36ae3def72f5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

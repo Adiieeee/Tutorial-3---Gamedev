@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://difx5pl41hxpv"
+path="res://.godot/imported/music_box_level_start.wav-f758dc3bce1eb4e10bdb1d87d5e6cb1b.sample"
+
+[deps]
+
+source_file="res://assets/Tutorial5/400 Sounds Pack/Musical Effects/music_box_level_start.wav"
+dest_files=["res://.godot/imported/music_box_level_start.wav-f758dc3bce1eb4e10bdb1d87d5e6cb1b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
